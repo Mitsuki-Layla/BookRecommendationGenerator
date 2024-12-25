@@ -3,9 +3,11 @@
 :root{
     --primary-color: #ffeb67;
     --primary-color-pale: #fff193dc;
-    --secondary-color: #ffea8b;
-    --accent-color: #ecad47;
-    --brand-gradient: linear-gradient(to right, #FAEDCD, #CCD5AE);
+    --secondary-color: #fbf0bb;
+    --accent-color: #ffd084;
+    --accent-color-pale: #ffd797;
+    --brand-gradient: linear-gradient(to right, #ffeb67, #fbf0bb);
+    --brand-gradient-reverse: linear-gradient(to left, #ffeb67, #fbf0bb);
     --black: #060803;
     --white: #FEFAE0;
 }
@@ -77,6 +79,7 @@ h1{
 h2{
     font-size: 3rem;
     font-weight: 500;
+    margin-top: 5rem;
 }
 h3{
     font-size: 2.518rem;
@@ -131,6 +134,7 @@ button{
     background-color: var(--primary-color);
     
 }
+
 button:hover{
     cursor: pointer;
     background-color: var(--secondary-color);
@@ -143,4 +147,17 @@ button:hover{
     justify-content: space-around;
     max-width: 50%;
     margin: 2rem auto 0 auto;
+}
+#recommend-btn{
+    margin-top: 5rem;
+    background-color: var(--accent-color);
+}
+#recommend-btn:hover{
+    background-color: var(--accent-color-pale);
+}
+#themes button{
+    background: var(--brand-gradient);
+}
+#themes button:hover{
+    background: var(--brand-gradient-reverse);
 }
