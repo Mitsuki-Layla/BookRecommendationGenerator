@@ -1,3 +1,18 @@
+const books = {
+    History: {
+      "Epic Quests": ["The Hobbit", "The Lord of the Rings"],
+      "Magic and Sorcery": ["Harry Potter", "Mistborn"],
+    },
+    Philosophy: {
+      "Detective Stories": ["Sherlock Holmes", "The Girl with the Dragon Tattoo"],
+      "Psychological Thrillers": ["Gone Girl", "The Silent Patient"],
+    },
+    Psychology: {
+      "Space Exploration": ["Dune", "The Martian"],
+      "Time Travel": ["The Time Machine", "11/22/63"],
+    },
+  };
+
 const genresDiv = document.getElementById("genres");
 const themesDiv = document.getElementById("themes");
 const themeSection = document.getElementById("theme-section");
