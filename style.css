@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap');
 
 /*----------------------GENERAL STYLES-------------------------*/
 
@@ -47,3 +47,43 @@ a{
     background: var(--primary-color);
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+
+/*----------------------TYPOGRAPHY-------------------------*/
+
+h1, h2, h3{
+    font-family: "Quicksand", serif;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 4.778rem;
+    font-weight: 500;
+}
+h2{
+    font-size: 3.981rem;
+    font-weight: 500;
+}
+h3{
+    font-size: 3.318rem;
+    font-weight: 300;
+}
+
+body{
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "Figtree", sans-serif;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.5;
+    word-spacing: 2px;
+    width: 100vw;
+}
+
+
+::selection{
+background-color: var(--primary-color);
+color: var(--black);
+}
+
