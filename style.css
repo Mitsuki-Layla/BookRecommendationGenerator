@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Quicksand:wght@300..700&display=swap');
 
+:root{
+    --primary-color: #ffeb67;
+    --primary-color-pale: #fff193;
+    --secondary-color: #F1C683;
+    --accent-color: #ecad47;
+    --brand-gradient: linear-gradient(to right, #FAEDCD, #CCD5AE);
+    --black: #060803;
+    --white: #FEFAE0;
+}
+
+
 /*----------------------GENERAL STYLES-------------------------*/
 
 /* Resetting box-sizing for all elements */
