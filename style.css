@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: #ffeb67;
-    --primary-color-pale: #fff193;
+    --primary-color-pale: #fff193dc;
     --secondary-color: #F1C683;
     --accent-color: #ecad47;
     --brand-gradient: linear-gradient(to right, #FAEDCD, #CCD5AE);
@@ -65,19 +65,21 @@ a{
 h1, h2, h3{
     font-family: "Quicksand", serif;
     font-style: normal;
-    margin-bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70%;
 }
 
 h1{
-    font-size: 4.778rem;
+    font-size: 4rem;
     font-weight: 500;
 }
 h2{
-    font-size: 3.981rem;
+    font-size: 3rem;
     font-weight: 500;
 }
 h3{
-    font-size: 3.318rem;
+    font-size: 2.518rem;
     font-weight: 300;
 }
 
@@ -98,3 +100,15 @@ background-color: var(--primary-color);
 color: var(--black);
 }
 
+
+
+/*HEADER*/
+
+header{
+    width: 100vw;
+    background-color: var(--primary-color-pale);
+}
+
+h1{
+    padding: 2rem 0;
+}
