@@ -3,7 +3,7 @@
 :root{
     --primary-color: #ffeb67;
     --primary-color-pale: #fff193dc;
-    --secondary-color: #F1C683;
+    --secondary-color: #ffea8b;
     --accent-color: #ecad47;
     --brand-gradient: linear-gradient(to right, #FAEDCD, #CCD5AE);
     --black: #060803;
@@ -106,9 +106,41 @@ color: var(--black);
 
 header{
     width: 100vw;
+    margin-top: 2rem;
     background-color: var(--primary-color-pale);
 }
 
 h1{
     padding: 2rem 0;
+}
+
+
+/*MAIN*/
+
+
+main{
+    margin-top: 5rem;
+}
+
+/*GENERAL BUTTONS*/
+
+button{
+    padding: 1.6rem 3.2rem;
+    border-radius: 25px;
+    border: 1px solid var(--black);
+    background-color: var(--primary-color);
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+/*GENRES SECTION*/
+
+#genres{
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin: 2rem auto 0 auto;
 }
